@@ -5,7 +5,7 @@ echo -e "\n~~Welcome to Periodic Table Database~~\n"
 if [[ -z $1 ]]
 then
 #argument required
-echo -e "\nPlease provide an element as an argument."
+echo "Please provide an element as an argument."
 exit
 else
 #number validation
